@@ -49,6 +49,50 @@ console.log(boollogged);
 console.log(boollogged1);
 console.log(boollogged2);
 
+//null is converted to 0 while converting in number//
+
+
+//********************operators************************************************ */
+let value = 56
+let negvalue = -value
+console.log(negvalue);
+
+console.log(2*2);
+console.log(2/2);
+console.log(2+2);
+
+let str1 = "hello"
+let str2 = "muskan"
+
+let str3 = str1+str2
+console.log(str3);
+
+console.log(1+"2");
+console.log("1"+2);
+console.log("1"+"2");
+console.log("1"+2+2+4); //it will print whole as a string
+console.log(2+3+"1"); //it will add numbers first then print it as a string
+
+
+//priority is readability
+console.log((5+6)*9%3);
+
+console.log(+true); //convert bool to number
+
+console.log("2">1); //js allows comparison of two different datatypes
+console.log("muskan">7);
+console.log("5">1);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
