@@ -59,11 +59,9 @@ let userTwo = userOne
 
 userTwo.email = "shrishti@gmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
-
-// **************************************************************************************************************
-
+console.log(userOne.email)
+console.log(userTwo.email)
+// **************************************************************************************************************//
 
 
 
